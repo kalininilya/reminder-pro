@@ -1,0 +1,27 @@
+.App{
+  display: flex;
+  flex-direction:  column;
+  padding-top: 20px;
+
+  align-items: center;
+}
+
+.title{
+  font-size: 26px;
+}
+
+.input{
+  margin: 5px;
+}
+
+.reminder-form{
+  padding: 5px; 
+}
+
+.list-group-item{
+  display: flex;
+  padding: 5px;
+  cursor: pointer;
+
+  justify-content: space-between;
+}
